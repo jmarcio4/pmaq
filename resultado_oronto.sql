@@ -4,10 +4,10 @@ DROP VIEW if exists pmaq."RESULTADO_ODONTO";
 
 CREATE OR REPLACE VIEW pmaq."RESULTADO_ODONTO" AS 
  SELECT tb_dim_municipio.no_municipio,
-    uu.nu_cnes,
+nu_cnes,
     uu.no_unidade_saude,
     pp.nu_cns,
-    pp.no_profissional,
+no_profissional,
     cc.no_cbo,
     cc.nu_cbo,
     tt.nu_ano,
