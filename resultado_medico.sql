@@ -1,4 +1,4 @@
--- View: pmaq."RESULTADO_MEDICO"
+--------- View: pmaq."RESULTADO_MEDICO"
 
 DROP VIEW if exists pmaq."RESULTADO_MEDICO";
 
