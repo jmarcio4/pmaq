@@ -1,3 +1,3 @@
-select datname, count(*) from _stat_activity
+select datname, count(*) from pg_stat_activity
 group by datname
 
